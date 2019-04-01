@@ -1,0 +1,163 @@
+2019/03/09-11:22 [main] INFO  com.li02.hy.HyApplication- Starting HyApplication on LAPTOP-4AQC87OG with PID 19376 (E:\hy\target\classes started by lhy in E:\hy)
+2019/03/09-11:22 [main] INFO  com.li02.hy.HyApplication- No active profile set, falling back to default profiles: default
+2019/03/09-11:22 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/09-11:22 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/09-11:22 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019/03/09-11:22 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d024049] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/09-11:22 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2019/03/09-11:22 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/03/09-11:22 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/09-11:22 [main] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javajdk\Jdk8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ruanjian\oracle11gEX\oracleEX11G\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\javajdk\Jdk8\jdk\bin;D:\javajdk\Jdk8\jdk\jre\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;E:\ssm\maven\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;D:\ruanjian\cmder\cmder;C:\Program Files\Redis\;I:\Program Files\MySQL\MySQL Server 5.7\bin;G:\redis\Redisx64;C:\Users\lhy\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\lhy\AppData\Local\Programs\Python\Python37\;C:\Users\lhy\AppData\Local\Microsoft\WindowsApps;;D:\ruanjian\sshclient;.]
+2019/03/09-11:22 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/03/09-11:22 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 5587 ms
+2019/03/09-11:22 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/09-11:22 [main] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/03/09-11:22 [main] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019/03/09-11:22 [main] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2019/03/09-11:22 [main] INFO  org.quartz.impl.StdSchedulerFactory- Using default implementation for ThreadExecutor
+2019/03/09-11:22 [main] INFO  org.quartz.core.SchedulerSignalerImpl- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019/03/09-11:22 [main] INFO  org.quartz.core.QuartzScheduler- Quartz Scheduler v.2.3.0 created.
+2019/03/09-11:22 [main] INFO  org.quartz.simpl.RAMJobStore- RAMJobStore initialized.
+2019/03/09-11:22 [main] INFO  org.quartz.core.QuartzScheduler- Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019/03/09-11:22 [main] INFO  org.quartz.impl.StdSchedulerFactory- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019/03/09-11:22 [main] INFO  org.quartz.impl.StdSchedulerFactory- Quartz scheduler version: 2.3.0
+2019/03/09-11:22 [main] INFO  org.quartz.core.QuartzScheduler- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@376c7d7d
+2019/03/09-11:22 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean- Starting Quartz Scheduler now
+2019/03/09-11:22 [main] INFO  org.quartz.core.QuartzScheduler- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019/03/09-11:22 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/09-11:22 [main] INFO  com.li02.hy.HyApplication- Started HyApplication in 11.041 seconds (JVM running for 14.441)
+2019/03/09-11:22 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:22 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:22 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:22 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:22 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:22 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:22 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:22 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:22 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-4] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-4] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-4] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/09-11:23 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/03/09-11:23 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 7 ms
+2019/03/09-11:23 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:23 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-5] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-5] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-5] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:24 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:25 [pool-2-thread-3] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-4] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-4] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-4] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-4] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-11:26 [pool-2-thread-4] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-14:38 [main] INFO  com.li02.hy.HyApplication- Starting HyApplication on LAPTOP-4AQC87OG with PID 9732 (E:\hy\target\classes started by lhy in E:\hy)
+2019/03/09-14:38 [main] INFO  com.li02.hy.HyApplication- No active profile set, falling back to default profiles: default
+2019/03/09-14:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/09-14:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/09-14:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019/03/09-14:38 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cd30466] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/09-14:38 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2019/03/09-14:38 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/03/09-14:38 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/09-14:38 [main] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javajdk\Jdk8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ruanjian\oracle11gEX\oracleEX11G\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\javajdk\Jdk8\jdk\bin;D:\javajdk\Jdk8\jdk\jre\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;E:\ssm\maven\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;D:\ruanjian\cmder\cmder;C:\Program Files\Redis\;I:\Program Files\MySQL\MySQL Server 5.7\bin;G:\redis\Redisx64;C:\Users\lhy\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\lhy\AppData\Local\Programs\Python\Python37\;C:\Users\lhy\AppData\Local\Microsoft\WindowsApps;;D:\ruanjian\sshclient;.]
+2019/03/09-14:38 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/03/09-14:38 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1616 ms
+2019/03/09-14:38 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sendMailQuartz': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.li02.hy.mail.SendJunkMailService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2019/03/09-14:38 [main] INFO  org.apache.catalina.core.StandardService- Stopping service [Tomcat]
+2019/03/09-14:38 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019/03/09-14:38 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.li02.hy.mail.SendJunkMailService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.li02.hy.mail.SendJunkMailService' in your configuration.
+
+2019/03/09-14:40 [main] INFO  com.li02.hy.HyApplication- Starting HyApplication on LAPTOP-4AQC87OG with PID 2476 (E:\hy\target\classes started by lhy in E:\hy)
+2019/03/09-14:40 [main] INFO  com.li02.hy.HyApplication- No active profile set, falling back to default profiles: default
+2019/03/09-14:40 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/03/09-14:40 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/03/09-14:40 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019/03/09-14:40 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$52189fdf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/09-14:40 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2019/03/09-14:40 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/03/09-14:40 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/09-14:40 [main] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\javajdk\Jdk8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ruanjian\oracle11gEX\oracleEX11G\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\javajdk\Jdk8\jdk\bin;D:\javajdk\Jdk8\jdk\jre\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;E:\ssm\maven\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;D:\ruanjian\cmder\cmder;C:\Program Files\Redis\;I:\Program Files\MySQL\MySQL Server 5.7\bin;G:\redis\Redisx64;C:\Users\lhy\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\lhy\AppData\Local\Programs\Python\Python37\;C:\Users\lhy\AppData\Local\Microsoft\WindowsApps;;D:\ruanjian\sshclient;.]
+2019/03/09-14:40 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/03/09-14:40 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1598 ms
+2019/03/09-14:40 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/09-14:40 [main] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/03/09-14:40 [main] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019/03/09-14:40 [main] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2019/03/09-14:40 [main] INFO  org.quartz.impl.StdSchedulerFactory- Using default implementation for ThreadExecutor
+2019/03/09-14:40 [main] INFO  org.quartz.core.SchedulerSignalerImpl- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019/03/09-14:40 [main] INFO  org.quartz.core.QuartzScheduler- Quartz Scheduler v.2.3.0 created.
+2019/03/09-14:40 [main] INFO  org.quartz.simpl.RAMJobStore- RAMJobStore initialized.
+2019/03/09-14:40 [main] INFO  org.quartz.core.QuartzScheduler- Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019/03/09-14:40 [main] INFO  org.quartz.impl.StdSchedulerFactory- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019/03/09-14:40 [main] INFO  org.quartz.impl.StdSchedulerFactory- Quartz scheduler version: 2.3.0
+2019/03/09-14:40 [main] INFO  org.quartz.core.QuartzScheduler- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1507c3c3
+2019/03/09-14:40 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean- Starting Quartz Scheduler now
+2019/03/09-14:40 [main] INFO  org.quartz.core.QuartzScheduler- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019/03/09-14:40 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/09-14:40 [main] INFO  com.li02.hy.HyApplication- Started HyApplication in 3.3 seconds (JVM running for 4.197)
+2019/03/09-14:40 [pool-1-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-14:40 [pool-1-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-14:40 [pool-1-thread-2] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
+2019/03/09-14:40 [pool-1-thread-1] INFO  com.li02.hy.quartz.sendMailQuartz- 定时器开始运行了
